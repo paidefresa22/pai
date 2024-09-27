@@ -35,7 +35,34 @@ header{
     text-decoration: none;
 
 }
-.menu {
+.menu li a:hover{
     color:var(--Marina);
 }
+.servicios{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
 
+}
+.card{
+    background-color: #d0e3f0;
+    border: #443d8b 2px solid;
+    border-radius: 10px;
+    padding: 30px 50px;
+
+}
+.card h3{
+    font-size: 1.5em;
+    color: #17153B;
+    font-weight: 800;
+    text-align: center;
+}
+.card p{
+    text-align: center;
+    color: #2E236C;
+}
+p{
+    font-size: 16px;
+
+}
