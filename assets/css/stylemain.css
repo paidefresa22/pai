@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Josefin Sans", sans-serif;
 }
 :root{
     --negro: #17153B;
@@ -17,8 +18,8 @@ header{
 }
 .menu{
     list-style: none !important;
-    float:right;
-    margin: 0px 10px;
+    float:center;
+    margin: 10px 10px;
     text-align: center;
 }
 .menu li{
@@ -39,10 +40,12 @@ header{
     color:var(--Marina);
 }
 .servicios{
-    width: 100%;
+    width: 94%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 20px;
+    padding-right: 3%;
+    padding-left: 3%;
 
 }
 .card{
@@ -65,4 +68,93 @@ header{
 p{
     font-size: 16px;
 
+}
+/*INICIO DE ESTILO PARA TITULO DE SECCION*/
+.titulo-seccion{
+    text-align: center;
+}
+.titulo-seccion h2{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.2em;
+}
+.titulo-seccion p{
+    font-size: 18px;
+    line-height: 1.2em;
+}
+/*color de secciones - fuentes*/
+.primary-color{
+  background-color: #cba7c0;
+}
+.primary-font{
+    color:var(--espacio);
+}
+.white-color{
+   color:white;
+}
+/*padding*/
+.padding-20x{
+padding: 20px;
+}
+.padding-50x{
+    padding: 50px;
+}
+.padding-top-100x{
+    padding: 100px;
+
+}
+.padding-bottom{
+    padding-bottom: 100px;
+}
+/*botones*/
+.primary-button{
+    background-color: white;
+    color:var(--gris);
+    font-weight: 800;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 15px;
+    width: 300px;
+}
+.primary-button:hover{
+    background-color:mediumslateblue;
+    color:white;
+}
+/*CSS SECCION CONTACTOS*/
+.contacto{
+    width: 94%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+.right-column input [type="text"], [type="tel"], [type="email"], [type="text"]{
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #405D72;
+    font-size: 18px;
+    color: #C8ACD6;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.right-column label{
+    width: 100%;
+    font-size: 18px;
+    color: #405D72;
+    margin-bottom: 15px;
+}
+.right-column textarea{
+    width: 100%;
+    font-size: 18px;
+    color: #17153B;
+    margin-bottom: 15px;
+}
+.right-column input [type="submit"] {
+    border-radius: 15px;
+    background-color: #17153B;
+    font-size: 18px;
+    color: #e48b8b;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
 }
