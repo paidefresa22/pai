@@ -233,3 +233,33 @@ padding: 20px;
     color: black;
     text-decoration: none;
 }
+/*pagina de desarrollo web*/
+.col-servicio{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+}
+.h1{
+
+}
+.img-responsive{
+    width: 99%;
+}
+.border-white{
+    border: 3px solid rgb(11, 11, 58);
+    box-shadow:5px 5px 15px #17153B;
+}
+.col-1{
+    padding: 30px;
+    padding-right: 10%;
+    line-height: 1.8em;
+
+}
+/*lista dentro de card*/
+.card ul li{
+    list-style: square;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.8em;
+    color: #17153B;
+}

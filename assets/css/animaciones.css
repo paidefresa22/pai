@@ -1,0 +1,73 @@
+/*@keyframes box {
+from{background-color: red;}
+to{background-color: aqua;}
+
+}*/
+@keyframes box{
+    0% {background-color: red; left:0px; right: 0px;}
+    20% {background-color: rgb(201, 94, 94); left:350px; right: 0px;}
+    70% {background-color: rgb(232, 160, 160);left: 350px; right: 350px;}
+    100% {background-color: rgb(249, 205, 205);left:0px; right: 350px;}
+}
+.box{
+    background-color:rgb(254, 7, 7);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box;
+    animation-duration: 8s;
+    animation-delay: 2s;/*tiempo de retardo de la animacion*/
+    animation-iteration-count: 4; /*veces que se va a repetir*/
+}
+
+@keyframes box2{
+    0% {background-color: aquamarine;left: 0px; right:0px;}
+    20% {background-color: rgb(165, 228, 235); left: 360px; right: 0px;}
+    70% { background-color: cadetblue; left: 360px; right:360px;}
+    100% { background-color: darkgrey; left: 0px; right: 360px;}
+}
+.box2{
+    background-color: rgb(9, 193, 255);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box2;
+    animation-duration: 8s;
+    animation-delay: 3s;
+    animation-iteration-count: 4;
+}
+
+@keyframes box3{
+    0% {background-color: rgb(208, 175, 140);left: 0px; right:0px;}
+    20% {background-color: rgb(190, 134, 98); left: 370px; right: 0px ;}
+    70% { background-color: rgb(150, 107, 49); left: 370px; right:370px;}
+    100% { background-color: rgb(195, 108, 41); left: 0px; right: 370px;}
+}
+
+.box3{
+    background-color: rgb(141, 71, 6);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box3;
+    animation-duration: 8s;
+    animation-delay: 4s;
+    animation-iteration-count: 4;
+}
+
+@keyframes box4{
+    0% {background-color: rgb(186, 229, 239);left: 0px; right:0px;}
+    20% {background-color: rgb(134, 236, 242); left: 380px; right: 0px ;}
+    70% { background-color: rgb(23, 155, 182); left: 380px; right:380px;}
+    100% { background-color: rgb(8, 88, 112); left: 0px; right: 380px;}
+}
+.box4{
+    background-color: rgb(11, 73, 219);
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: box4;
+    animation-duration: 8s;
+    animation-delay: 5s;
+    animation-iteration-count: 4;
+}
