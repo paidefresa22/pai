@@ -193,7 +193,7 @@ padding: 20px;
 
 }
 .social-icons li a:hover{
-    color: var(--gris));
+    color: var(--gris);
     
 
 }
@@ -240,9 +240,7 @@ padding: 20px;
     grid-template-columns: auto auto;
     gap: 20px;
 }
-.h1{
 
-}
 .img-responsive{
     width: 99%;
 }
